@@ -9,8 +9,11 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-<!--    <title>New Age - Start Bootstrap Theme</title>-->
     <title>Portfolio Laura Morales- Prototype 1</title>
+
+    <!--    libraries-->
+
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -91,7 +94,17 @@
                             <div class="device">
                                 <div class="screen">
                                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                                    <img src="img/texto1.png" class="img-responsive" alt="Texto Introductoire">
+                                    <div class="texto" data-aos="zoom-in" data-aos-delay="100">
+                                        <p>Bonjour, je m'appelle Laura Morales.</p>
+                                    </div>
+
+                                    <div class="texto" data-aos="zoom-in-up" data-aos-delay="1200">
+                                        <p>Je suis une prof. de langues qui a décidé de retourner à l'école pour apprendre une quatrième: la programmation :)</p>
+                                    </div>
+
+                                    <div class="texto" data-aos="zoom-in-up" data-aos-delay="2400">
+                                        <p>J'étudie au Cégep Limoilou actuellement et après 12 mois d'éxploration du code, je me lance à la recherche de mon premier stage comme Développeuse web... </p>
+                                    </div>
                                 </div>
                                 <div class="button">
                                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
@@ -253,8 +266,6 @@
                 </div>
                 <div class="col-sm-5">
                     <div class="map" id="map">
-
-
                     </div>
                 </div>
             </div>
@@ -265,8 +276,8 @@
     <section class="cta" id="cta">
         <div class="cta-content">
             <div class="container">
-                <h2>Je vous ai intéressé?<br>Restons en contact.</h2>
-                <a href="#contact" class="btn btn-outline btn-xl page-scroll">Écrivez-moi!</a>
+                <h2>Intéressé(e)?<br>Contactez-moi.</h2>
+                <a href="#contact" class="btn btn-outline btn-xl page-scroll">M'écrire!</a>
             </div>
         </div>
         <div class="overlay"></div>
@@ -284,8 +295,8 @@
                 <li class="social-facebook">
                     <a href="#"><i class="fa fa-facebook"></i></a>
                 </li>
-                <li class="social-google-plus">
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
+                <li class="social-linkedin">
+                    <a href="#"><i class="fa fa-linkedin"></i></a>
                 </li>
             </ul>
         </div>
@@ -293,7 +304,6 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
             <p>&copy; 2016 Laura Morales.</p>
             <!--
             <ul class="list-inline">
@@ -312,7 +322,8 @@
     </footer>
 
     <!--Laura's Javascript-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJeJQswzjx9oWDqK_2cUGvIa5FwwAwupA&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBJeJQswzjx9oWDqK_2cUGvIa5FwwAwupA&callback=initMap" async defer>
+    </script>
 
     <script>
         function initMap() {
@@ -335,6 +346,9 @@
 
         init
     </script>
+    
+        <script src="bower_components/aos/dist/aos.js"></script>
+         <script src="js/laura_main.js"></script>
 
 
     <!-- jQuery -->

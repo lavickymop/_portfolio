@@ -5,8 +5,8 @@ html,
 body {
     height: 100%;
     width: 100%;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -170,10 +170,23 @@ header {
     .device-container {
         max-width: 300px;
         margin: 0 auto 100px;
-        .screen img {
-            border-radius: 3px;
-            margin: 0 auto;
-            margin-top: -3px;
+        .screen {
+            background-color: #fff;
+        }
+        .texto {
+            border-radius: 20px;
+            width: 200px;
+            max-height: 100px;
+            margin: 7px 5px;
+            
+            background: #e7e7e7;
+            text-align: left;
+            color: #000;
+            p {
+                font-size: 12px;
+                font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+                padding: 5px;
+            }
         }
     }
     @media (min-width: 768px) {
@@ -300,20 +313,15 @@ section.skills {
         }
     }
 }
-section.experience{
-    position:relative;
+
+section.experience {
+    position: relative;
     .background-cover;
-    
-    #map{
+    #map {
         height: 400px;
         width: 100%;
-        background-color: aqua;
-        
+        background-color: #28afba;
     }
-    
-    
-    
-    
 }
 
 section.cta {
@@ -385,11 +393,11 @@ section.contact {
                     }
                 }
             }
-            &.social-google-plus {
+            &.social-linkedin {
                 a {
-                    background-color: @brand-google-plus;
+                    background-color: @brand-linkedin;
                     &:hover {
-                        background-color: darken(@brand-google-plus, 5%);
+                        background-color: darken(@brand-linkedin, 5%);
                     }
                 }
             }
@@ -478,9 +486,6 @@ footer {
         border-color: @theme-secondary;
     }
 }
-
-
-
 
 // Extras
 // -- Highlight Color Customization
