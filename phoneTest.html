@@ -18,15 +18,17 @@
     }
     
     div {
-        border: 1px solid black;
-        width: 100px;
-        height 100px;
-        margin:5px auto;
-        padding-top: 75px;
-        background: #ccc;
-        text-align: center;
-        color: #FFF;
-        font-size: 3em;
+        /*        border: 1px solid black;*/
+        border-radius: 25px;
+        width: 300px;
+/*        height 100px;*/
+        margin: 5px auto;
+        padding: 10px;
+        background: #d7d7d7;
+        text-align: left;
+        color: #000;
+        font-size: 16px;
+        font-family: sans-serif;
     }
 </style>
 
@@ -35,34 +37,40 @@
 
     <h1>Phone animation test</h1>
 
-    <div data-aos="flip-left">
-        <h3>Bonjour je m'appelle Laura</h3>
+    <div data-aos="fade-right" data-aos-delay="100">
+        <p>Bonjour, je m'appelle Laura Morales.</p>
     </div>
 
-    <div class="item" data-aos="fade-down">2</div>
-    <div class="item" data-aos="fade-right">3</div>
-    <div class="item" data-aos="fade-left">4</div>
+    <div class="item" data-aos="fade-right" data-aos-delay="1200">
+        <p>Je suis une prof. de langues qui a décidé de retourner à l'école pour apprendre une quatrième: la programmation :)</p>
+    </div>
 
-    <div class="item" data-aos="zoom-in">5</div>
-    <div class="item" data-aos="zoom-out">6</div>
+    <div class="item" data-aos="fade-right" data-aos-delay="2400">
+        <p>J'étudie au Cégep Limoilou actuellement et après 12 mois d'éxploration du code, je me lance à la recherche de mon premier stage comme Développeuse web... </p>
+    </div>
+    <div class="item" data-aos="fade-left" data-aos-delay="100">
+        <p>Tout au long du programme j'ai touché à plusieurs logiciels et langages...</p>
+    </div>
 
-    <div class="item" data-aos="slide-up">7</div>
+    <div class="item" data-aos="fade-left" data-aos-delay="1200">
+        <p>Étant un programme multimédia nous avons eu à y développer autant notre côté créatif au visuel que notre côté logique.</p>
+    </div>
+    <div class="item" data-aos="fade-left" data-aos-delay="2400">
+        <p>J'ai trouvé des sujets qui m'intéressent les uns plus que les autres et sur lesquels je vais continuer à apprendre d'avantage</p>
+    </div>
 
-    <div class="item" data-aos="flip-up">8</div>
-    <div class="item" data-aos="flip-down">9</div>
-    <div class="item" data-aos="flip-right">10</div>
-    <div class="item" data-aos="flip-left">11</div>
-
-
-
-
+     
 
 
 
 
 
-    <script src="../../bower_components/aos/dist/aos.js"></script>
-    
+
+
+
+
+    <script src="bower_components/aos/dist/aos.js"></script>
+
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
     <script src="js/laura_main.js"></script>
