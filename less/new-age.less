@@ -55,7 +55,7 @@ p {
     .transition-all;
     .heading-font;
     .navbar-header .navbar-brand {
-        .heading-font;
+        .heading-font2;
         color: @theme-secondary;
         &:hover,
         &:focus {
@@ -136,12 +136,12 @@ header {
     width: 100%;
     min-height: auto;
     overflow-y: hidden;
-    background: url("../img/bg-pattern.png"), @theme-secondary;
+    background: @theme-secondary;
     /* fallback for old browsers */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: url("../img/bg-pattern.png"), -webkit-linear-gradient(right, @theme-secondary, @theme-tertiary2);
-    background: url("../img/bg-pattern.png"), -o-linear-gradient(right, @theme-secondary, @theme-tertiary2);
-    background: url("../img/bg-pattern.png"), linear-gradient(to left, @theme-secondary, @theme-tertiary2);
+    background: -webkit-linear-gradient(right, @theme-secondary, @theme-tertiary2);
+    background: -o-linear-gradient(right, @theme-secondary, @theme-tertiary2);
+    background: linear-gradient(to left, @theme-secondary, @theme-tertiary2);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-attachment: fixed;
     color: white;
@@ -157,6 +157,7 @@ header {
                 margin-top: 0;
                 margin-bottom: 30px;
                 font-size: 30px;
+                font-family: 'Raleway', sans-serif;
             }
             .list-badges {
                 margin-bottom: 25px;

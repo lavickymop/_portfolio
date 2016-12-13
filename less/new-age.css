@@ -4,6 +4,11 @@
   font-weight: 200;
   letter-spacing: 1px;
 }
+.heading-font2 {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 50px;
+}
 .body-font {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
@@ -67,9 +72,9 @@ p {
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
-  font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-  font-weight: 200;
-  letter-spacing: 1px;
+  font-family: 'Dancing Script', cursive;
+  font-weight: 300;
+  font-size: 50px;
   color: #2929bc;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -149,12 +154,12 @@ header {
   width: 100%;
   min-height: auto;
   overflow-y: hidden;
-  background: url("../img/bg-pattern.png"), #2929bc;
+  background: #2929bc;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(right, #2929bc, #28afba);
-  background: url("../img/bg-pattern.png"), -o-linear-gradient(right, #2929bc, #28afba);
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #2929bc, #28afba);
+  background: -webkit-linear-gradient(right, #2929bc, #28afba);
+  background: -o-linear-gradient(right, #2929bc, #28afba);
+  background: linear-gradient(to left, #2929bc, #28afba);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background-attachment: fixed;
   color: white;
@@ -173,6 +178,7 @@ header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
   font-size: 30px;
+  font-family: 'Raleway', sans-serif;
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
