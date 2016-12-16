@@ -2,7 +2,7 @@
 
 ## Liste d'améliorations à faire pour la remise 2
 
-1. ~Changer la police~
+1. ~~Changer la police~~
 2. Changer le background du header (animation en ondes sur dégradé bleu et ~élimination du patron géometrique~)
 3. Animer les messages de texte dans les iphones(voir que le déclencheur soit le bouton "connaître mon histoire")
 4. ~Remplacer les mockups iphone par des modèles flat design~
