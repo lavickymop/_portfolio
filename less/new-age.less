@@ -71,7 +71,7 @@ p {
         > li {
             > a {
                 .alt-font;
-                font-size: 11px;
+                font-size: 12px;
             }
             > a,
             > a:focus {
@@ -113,7 +113,7 @@ p {
             background-color: white;
             border-color: fade(@gray-darker, 10%);
             .navbar-header .navbar-brand {
-                color: @gray-darker;
+                color: @theme-tertiary2;
                 &:hover,
                 &:focus {
                     color: @theme-secondary;
@@ -121,7 +121,7 @@ p {
             }
             .nav > li > a,
             .nav > li > a:focus {
-                color: @gray-darker;
+                color: @theme-tertiary2;
                 &:hover {
                     color: @theme-secondary;
                 }
@@ -257,17 +257,21 @@ section.realisations {
         }
     }
     .modal-content {
-        color: @gray-dark;
+        background-color: @theme-modal;
+        color: @gray-lighter;
         .body-font;
         a {
             font-size: 18px;
-            color: black;
-            margin-top: 15px;
+            font-weight: 400;
+            color: @gray-lighter;
+            padding-top: 15px;
+            margin-top: 25px;
         }
     }
 }
 
 section.skills {
+    background-color: @gray-lighter;
     .section-heading {
         h2 {
             margin-top: 0;
@@ -329,7 +333,8 @@ section.cta {
     position: relative;
     .background-cover;
     background-position: center;
-    background-image: url('../img/bg-cta.jpg');
+    background-image: url('../img/selfie_bw.jpg');
+    background-attachment: fixed;
     padding: 250px 0;
     .cta-content {
         position: relative;

@@ -6,7 +6,7 @@
 }
 .heading-font2 {
   font-family: 'Dancing Script', cursive;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 50px;
 }
 .body-font {
@@ -72,7 +72,7 @@ p {
 }
 .navbar-default .navbar-header .navbar-brand {
   font-family: 'Dancing Script', cursive;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 50px;
   color: #2929bc;
 }
@@ -88,7 +88,7 @@ p {
 .navbar-default .nav > li > a {
   font-family: 'Oxygen', sans-serif;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 12px;
 }
 .navbar-default .nav > li > a,
 .navbar-default .nav > li > a:focus {
@@ -132,7 +132,7 @@ p {
     border-color: rgba(34, 34, 34, 0.1);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #222222;
+    color: #28afba;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
@@ -140,7 +140,7 @@ p {
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
-    color: #222222;
+    color: #28afba;
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
@@ -272,13 +272,19 @@ section.realisations .badges .badge-link img {
   }
 }
 section.realisations .modal-content {
-  color: #333333;
+  background-color: rgba(141, 236, 244, 0.6);
+  color: #eeeeee;
   font-family: 'Raleway', sans-serif;
 }
 section.realisations .modal-content a {
   font-size: 18px;
-  color: black;
-  margin-top: 15px;
+  font-weight: 400;
+  color: #eeeeee;
+  padding-top: 15px;
+  margin-top: 25px;
+}
+section.skills {
+  background-color: #eeeeee;
 }
 section.skills .section-heading {
   margin-bottom: 100px;
@@ -346,7 +352,8 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/selfie_bw.jpg');
+  background-attachment: fixed;
   padding: 250px 0;
 }
 section.cta .cta-content {
